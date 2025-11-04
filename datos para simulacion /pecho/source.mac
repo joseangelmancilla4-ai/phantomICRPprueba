@@ -1,0 +1,79 @@
+############################################################
+# FUENTE 0 (Por defecto) – Punto en (-30, -30, 750)
+############################################################
+/gps/particle ion
+/gps/ion 9 18 0 0  # F-18
+/gps/pos/type Point
+/gps/pos/centre -5.0 0.0 44.0 cm
+/gps/ang/type iso
+# Intensidad 1 (implícita)
+
+############################################################
+# FUENTE 1 (Añadida) – Punto en (30, -30, 750)
+############################################################
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 9 18 0 0
+/gps/pos/type Point
+/gps/pos/centre 5.0 0.0 44.0 cm
+/gps/ang/type iso
+
+############################################################
+# FUENTE 2 (Añadida) – Punto en (30, 30, 750)
+############################################################
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 9 18 0 0
+/gps/pos/type Point
+/gps/pos/centre 0.0 5.0 44.0 cm
+/gps/ang/type iso
+
+############################################################
+# FUENTE 3 (Añadida) – Punto en (-30, 30, 750)
+############################################################
+/gps/source/add 1
+/gps/particle ion
+/gps/ion 9 18 0 0
+/gps/pos/type Point
+/gps/pos/centre 0.0 -5.0 44.0 cm
+/gps/ang/type iso
+
+############################################################
+# Fuente 1 (ID 0 por defecto) – Rod en X = -50 mm
+############################################################
+#/gps/particle ion
+#/gps/ion 9 18 0 0
+#/gps/number 1
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/centre -5.0 0.0 75 cm
+#/gps/pos/radius 5.0 mm
+#/gps/pos/halfz 50.0 mm
+#/gps/pos/rot1 0 1 0
+#/gps/pos/rot2 1 0 0
+#/gps/ang/type iso
+#/gps/source/intensity 1
+
+############################################################
+# Fuente 2 (ID 1) – Rod en X = +50 mm
+############################################################
+#/gps/source/add 1
+#/gps/particle ion
+#/gps/ion 9 18 0 0
+#/gps/number 1
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/centre 30.0 0.0 750 mm  # <--- Esta es la única línea diferente
+#/gps/pos/radius 5.0 mm
+#/gps/pos/halfz 50.0 mm
+#/gps/pos/rot1 0 1 0
+#/gps/pos/rot2 1 0 0
+#/gps/ang/type iso
+#/gps/source/intensity 1
+
+
+
+#daniel alejadro lopez 
+#folio 6071006024743o
+#serie M93YC66Cyf
+#5575839999 brenda 
